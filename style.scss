@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+section.search_and_heading{
+    background: url(./images/pattern-bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 33px;
+
+    input#search{
+        width: 500px;
+        height: 58px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        padding-left: 24px;
+        &::placeholder{
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    button{
+        height: 58px;
+        width: 58px;
+        background-color: rgba(0, 0, 0, 1);
+        border: none;
+        border-top-right-radius:15px ;
+        border-bottom-right-radius: 15px;
+        margin-left: -20px;
+    }
+    aside.info{
+        display: flex;
+        position: absolute;
+        top: 200px;
+        height: 161px;
+        background-color: white;
+        border-radius: 15px;
+        align-items: center;
+        padding: 0 32px;
+        z-index: 3;
+    }
+    div.box div{
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.23px;
+        margin-top: 13px;
+    }
+    
+    div.box span{
+        font-size: 16px;
+        font-weight: 700;
+        color: rgba(44, 44, 44, 0.6);
+    }
+    
+    figure{
+        width: 1px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+section.map_place{
+    width: 100%;
+    height: 100%;
+    
+    #map{
+        height: 600px;
+        position: relative;
+        z-index: 0;
+    }
+}
+
+
