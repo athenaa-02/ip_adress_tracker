@@ -64,6 +64,8 @@ section.search_and_heading aside.info {
   align-items: center;
   padding: 0 32px;
   z-index: 3;
+  min-width: 900px;
+  justify-content: space-around;
 }
 section.search_and_heading div.box div {
   font-size: 26px;
